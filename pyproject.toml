@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kochplan"
+version = "0.1.0"
+description = ""
+authors = ["Timotheus Bachinger <timotheus.bachinger@checkmk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.2"
+mypy = "^1.5.1"
+holidays = "^0.33"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
